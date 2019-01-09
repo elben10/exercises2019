@@ -1,3 +1,4 @@
+name: base
 channels:
   - damianavila82
   - conda-forge
@@ -12,4 +13,4 @@ dependencies:
   - ipywidgets
   - rise
   - pip:
-    - jupyter-contrib-nbextensions
+    - git+https://github.com/NumEconCopenhagen/NumEcon
